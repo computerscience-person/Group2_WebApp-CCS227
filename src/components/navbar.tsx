@@ -1,6 +1,12 @@
+import HamburgerButton from "./HamburgerButton";
+import Cart from "./Cart";
+
 const Navbar = () => {
   return (
-    <nav className="bg-blue-200 p-10 h-[120px] w-full shadow-lg">NAVBARsss</nav>
+    <nav className="bg-blue-300 p-5 h-30 w-full shadow-lg m-0 flex justify-between items-center">
+      <HamburgerButton />
+      <Cart />
+    </nav>
   );
 };
 
