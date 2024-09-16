@@ -1,14 +1,13 @@
 import Navbar from "../components/navbar";
 import Footer from "../components/Footer";
 
-const AboutUs = () => {
+const NotFound = () => {
   return (
-    // TODO: please remove debugging colors.
-    <div className="flex flex-col min-h-screen bg-violet-400">
+    <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="flex-grow flex items-center justify-center p-4">
         <h1 className="text-center text-2xl font-bold">
-          <strong>About Page</strong>
+          <strong>You got lost!</strong>
         </h1>
       </main>
       <Footer />
@@ -16,4 +15,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default NotFound;
