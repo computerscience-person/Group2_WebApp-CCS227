@@ -1,7 +1,7 @@
 import Navbar from "../components/navbar";
 import Footer from "../components/Footer";
 
-const Homepage = () => {
+const ProductPage = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
@@ -15,4 +15,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default ProductPage;
