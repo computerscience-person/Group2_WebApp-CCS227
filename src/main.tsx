@@ -8,12 +8,9 @@ import NotFound from "./pages/404.tsx";
 
 const routes = createBrowserRouter([
   {
-    path: "*",
-    element: <NotFound />
-  },
-  {
     path: "/",
     element: <Homepage />,
+    errorElement: <NotFound />,
   },
   {
     path: "/home",
