@@ -7,6 +7,7 @@ const NotFound = () => {
       <Navbar />
       <main className="flex-grow flex items-center justify-center p-4">
         <h1 className="text-center text-2xl font-bold">
+          {/* SUPPORT PAGE */}
           <strong>You got lost!</strong>
         </h1>
       </main>

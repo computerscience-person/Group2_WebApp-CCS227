@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .TotalScreen {
+  height: 1080px;
+} */
+
+.Layer1 {
+  height: 1080px;
+  background-color: rgba(113, 129, 167, 1);
+  padding: 200px;
+  padding-top: 30px;
+  padding-left: 90px;
+  /* padding-right: 70px; */
+}
+.Layer2 {
+  height: 1080px;
+}
+p {
+  margin: 20px;
+}
+
+.tagline {
+  margin-top: 100px;
+  font-size: 72px;
+  font-family: Poppins;
+  /* position: absolute; */
+  /* width: 818;
+  height: 20; */
+}
+.description {
+  font-size: 30px;
+  font-family: Poppins;
+}
