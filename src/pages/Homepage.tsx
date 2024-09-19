@@ -7,7 +7,7 @@ const Homepage = () => {
       <NavbarBlue />
       <main className="flex-grow flex items-center justify-center p-4">
         <h1 className="text-center text-2xl font-bold">
-          <strong>Content in between is here!</strong>
+          <strong>Content in between is heredasdas!</strong>
         </h1>
       </main>
       <Footer />

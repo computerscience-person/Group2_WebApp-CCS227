@@ -19,8 +19,8 @@ const routes = createBrowserRouter([
   {
     path: "/about",
     element: <AboutUs />,
-  }
-])
+  },
+]);
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
