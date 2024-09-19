@@ -10,7 +10,7 @@ const FooterBlue = () => {
         className="w-auto h-20 mb-5 transition-transform duration-80 ease-in-out hover:scale-105"
       />
 
-      <p className="text-gray-700 font-extrabold font-poppins">
+      <p className="text-gray-700 font-extrabold font-poppins ">
         © 2024 Water-up inc. All rights reserved.
       </p>
     </div>

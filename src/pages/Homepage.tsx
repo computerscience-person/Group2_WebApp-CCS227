@@ -12,21 +12,23 @@ const Homepage = () => {
         style={{ backgroundColor: "#CFE4F4" }}
       >
         {/* Text Description */}
-        <div className="h-[200px] w-[1000px] pl-[80px]">
-          <h1 className="text-6xl font-bold pb-5">
+        <div className="h-[200px] w-[1000px] pl-[80px] font-poppins">
+          <h1 className="font-poppins text-6xl font-bold pb-5">
             WATER-UP: <br /> Water made better.
           </h1>
           <button
-            className="h-10 w-40 font-bold text-white text-2xl rounded-2xl transition-transform duration-80 ease-in-out hover:scale-105"
+            className="h-10 w-40 text-2xl rounded-2xl transition-transform duration-80 ease-in-out hover:scale-105"
             style={{ backgroundColor: "#7181A7" }}
           >
-            Learn More
+            <a className="font-poppins font-bold text-white" href="/about">
+              Learn More
+            </a>
           </button>
         </div>
         {/* Product Image */}
         <img
           src={wu_classic}
-          className="w-auto h-[500px] pr-[80px] transition-transform duration-700 ease-in-out hover:scale-105"
+          className="w-auto h-[500px] pr-[80px] transition-transform duration-700 ease-in-out hover:scale-105 "
           alt="Water-Up Classic"
         />
       </div>

@@ -9,7 +9,7 @@ const NavbarSupports = () => {
         <li>
           <a
             href="/home"
-            className="block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
+            className="font-poppins block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
           >
             Home
           </a>
