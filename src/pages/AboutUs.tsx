@@ -1,4 +1,4 @@
-import Footer from "../components/Footer";
+import FooterWhite from "../components/Footers/FooterWhite";
 import NavbarWhite from "../components/Navbars/NavbarWhite";
 
 const AboutUs = () => {
@@ -11,7 +11,7 @@ const AboutUs = () => {
           <strong>About Page</strong>
         </h1>
       </main>
-      <Footer />
+      <FooterWhite />
     </div>
   );
 };

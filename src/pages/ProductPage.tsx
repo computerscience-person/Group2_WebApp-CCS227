@@ -1,5 +1,5 @@
 import NavbarBlue from "../components/Navbars/NavbarBlue";
-import Footer from "../components/Footer";
+import FooterBlue from "../components/Footers/FooterBlue";
 import ProductDiv from "../components/ProductDiv";
 
 const ProductPage = () => {
@@ -85,7 +85,7 @@ const ProductPage = () => {
           productPrice="₱00.00"
         />
       </div>
-      <Footer />
+      <FooterBlue />
     </div>
   );
 };

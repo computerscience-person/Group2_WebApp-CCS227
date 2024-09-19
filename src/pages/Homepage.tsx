@@ -1,4 +1,4 @@
-import Footer from "../components/Footer";
+import FooterBlue from "../components/Footers/FooterBlue";
 import NavbarBlue from "../components/Navbars/NavbarBlue";
 import wu_classic from "../assets/products/waterup_classic.png";
 
@@ -30,7 +30,7 @@ const Homepage = () => {
           alt="Water-Up Classic"
         />
       </div>
-      <Footer />
+      <FooterBlue />
     </div>
   );
 };

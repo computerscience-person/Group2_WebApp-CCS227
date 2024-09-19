@@ -1,8 +1,8 @@
-import wu_blue from "../../assets/logos/w_blue.png";
+import w_blue from "../../assets/logos/w_blue.png";
 const NavbarBlue = () => {
   return (
     <nav className="bg-white p-5 h-30 w-full shadow-lg m-0 flex justify-between items-center ">
-      <img src={wu_blue} alt="Logo" className="h-10" />
+      <img src={w_blue} alt="Logo" className="h-10" />
 
       <ul className="flex space-x-8 ml-auto">
         <li>

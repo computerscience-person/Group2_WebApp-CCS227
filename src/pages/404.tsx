@@ -1,4 +1,4 @@
-import Footer from "../components/Footer";
+import FooterBlue from "../components/Footers/FooterBlue";
 import NavbarWhite from "../components/Navbars/NavbarWhite";
 
 const NotFound = () => {
@@ -10,7 +10,7 @@ const NotFound = () => {
           <strong>You got lost!</strong>
         </h1>
       </main>
-      <Footer />
+      <FooterBlue />
     </div>
   );
 };

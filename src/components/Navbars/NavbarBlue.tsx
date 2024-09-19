@@ -1,5 +1,4 @@
-import Cart from "../Cart";
-import wu_blue from "../../assets/logos/w_blue.png";
+import w_blue from "../../assets/logos/w_blue.png";
 
 const NavbarBlue = () => {
   return (
@@ -7,7 +6,7 @@ const NavbarBlue = () => {
       className="p-5 h-30 w-full shadow-xl m-0 flex justify-between items-center"
       style={{ backgroundColor: "#CFE4F4" }} // Inline custom color
     >
-      <img src={wu_blue} alt="Logo" className="h-10" />
+      <img src={w_blue} alt="Logo" className="h-10" />
 
       <ul className="flex space-x-8 ml-auto">
         <li>
