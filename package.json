@@ -14,13 +14,14 @@
     "fmt": "pnpm prettier --write ./src/**/*.{js,ts,jsx,tsx}"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.10.0",
-    "@types/react": "^18.3.5",
+    "@types/react": "^18.3.7",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.7.0",
     "autoprefixer": "^10.4.20",
