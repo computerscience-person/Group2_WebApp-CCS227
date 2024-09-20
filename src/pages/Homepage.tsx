@@ -6,6 +6,7 @@ import HighlightCard from "../components/HighlightCard";
 import droplet from "../assets/icons/droplet.png";
 import ml from "../assets/icons/ml.png";
 import plant from "../assets/icons/plant.png";
+import HomepageFAQs from "../components/HomepageFAQs";
 
 const Homepage = () => {
   return (
@@ -91,6 +92,28 @@ const Homepage = () => {
             contentText="Sturdy and Eco-friendly packaging."
           />
         </div>
+      </div>
+      {/* LAYER 4 - FAQ */}
+      <div className="bg-white w-auto h-[550px] flex flex-col justify-start items-left pl-[80px] pt-12">
+        <h1
+          className="font-poppins text-6xl font-bold mb-6"
+          style={{ color: "#7181A7" }}
+        >
+          Frequently Asked Questions
+        </h1>
+        <HomepageFAQs
+          question="How and where can I order?"
+          answer="You may order Water-up products through our official accounts on e-commerce platforms, such as Shopee and Lazada.  "
+        />
+
+        <HomepageFAQs
+          question="What flavors are available? "
+          answer="Currently, there are a total of 4 refreshing flavors available: classic, strawberry, peach, and lemon.  More flavors are coming soon. "
+        />
+        <HomepageFAQs
+          question="What makes Water-up different from regular flavored water?"
+          answer="Water-up is not just flavored; it's packed with essential vitamins to give you a healthy boost with every sip. Plus, we use natural flavors to ensure a refreshing taste without the artificial additives."
+        />
       </div>
       <FooterBlue />
     </div>

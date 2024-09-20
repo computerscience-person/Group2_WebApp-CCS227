@@ -1,5 +1,5 @@
 import w_blue from "../../assets/logos/w_blue.png";
-const NavbarBlue = () => {
+const NavbarWhite = () => {
   return (
     <nav className="bg-white p-5 h-30 w-full shadow-lg m-0 flex justify-between items-center ">
       <img src={w_blue} alt="Logo" className="h-10" />
@@ -9,6 +9,7 @@ const NavbarBlue = () => {
           <a
             href="/home"
             className="font-poppins block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
+            style={{ color: "#7181A7" }}
           >
             Home
           </a>
@@ -17,6 +18,7 @@ const NavbarBlue = () => {
           <a
             href="/product"
             className="font-poppins block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
+            style={{ color: "#7181A7" }}
           >
             Products
           </a>
@@ -25,6 +27,7 @@ const NavbarBlue = () => {
           <a
             href="/about"
             className="font-poppins block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
+            style={{ color: "#7181A7" }}
           >
             About Us
           </a>
@@ -33,6 +36,7 @@ const NavbarBlue = () => {
           <a
             href="/support"
             className="font-poppins block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
+            style={{ color: "#7181A7" }}
           >
             Support
           </a>
@@ -42,4 +46,4 @@ const NavbarBlue = () => {
   );
 };
 
-export default NavbarBlue;
+export default NavbarWhite;
