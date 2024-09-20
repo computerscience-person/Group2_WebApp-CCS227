@@ -1,5 +1,5 @@
 import w_blue from "../../assets/logos/w_blue.png";
-const NavbarBlue = () => {
+const NavbarWhite = () => {
   return (
     <nav className="bg-white p-5 h-30 w-full shadow-lg m-0 flex justify-between items-center ">
       <img src={w_blue} alt="Logo" className="h-10" />
@@ -42,4 +42,4 @@ const NavbarBlue = () => {
   );
 };
 
-export default NavbarBlue;
+export default NavbarWhite;
