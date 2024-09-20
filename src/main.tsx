@@ -6,6 +6,7 @@ import Homepage from "./pages/Homepage.tsx";
 import AboutUs from "./pages/AboutUs.tsx";
 import NotFound from "./pages/404.tsx";
 import ProductPage from "./pages/ProductPage.tsx";
+import Support from "./pages/Support.tsx";
 
 const routes = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const routes = createBrowserRouter([
   {
     path: "/product",
     element: <ProductPage />,
+  },
+  {
+    path: "/support",
+    element: <Support />,
   },
 ]);
 
