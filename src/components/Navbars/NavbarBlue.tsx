@@ -13,6 +13,7 @@ const NavbarBlue = () => {
           <a
             href="/home"
             className="font-poppins block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
+            style={{ color: "#7181A7" }}
           >
             Home
           </a>
@@ -21,6 +22,7 @@ const NavbarBlue = () => {
           <a
             href="/product"
             className="font-poppins block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
+            style={{ color: "#7181A7" }}
           >
             Products
           </a>
@@ -29,6 +31,7 @@ const NavbarBlue = () => {
           <a
             href="/about"
             className="font-poppins block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
+            style={{ color: "#7181A7" }}
           >
             About Us
           </a>
@@ -37,6 +40,7 @@ const NavbarBlue = () => {
           <a
             href="/support"
             className="font-poppins block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
+            style={{ color: "#7181A7" }}
           >
             Support
           </a>

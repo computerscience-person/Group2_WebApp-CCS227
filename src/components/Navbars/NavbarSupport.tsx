@@ -10,6 +10,7 @@ const NavbarSupports = () => {
           <a
             href="/home"
             className="font-poppins block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
+            style={{ color: "#7181A7" }}
           >
             Home
           </a>
