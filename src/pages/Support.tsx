@@ -1,5 +1,5 @@
 import NavbarSupport from "../components/Navbars/NavbarSupport";
-import Footer from "../components/Footer";
+import Footer from "../components/Footers/FooterBlue";
 
 const Support = () => {
   return (

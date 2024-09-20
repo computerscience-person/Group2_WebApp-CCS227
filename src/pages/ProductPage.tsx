@@ -1,11 +1,11 @@
-import Navbar from "../components/navbar";
-import Footer from "../components/Footer";
+import NavbarBlue from "../components/Navbars/NavbarBlue";
+import FooterBlue from "../components/Footers/FooterBlue";
 import ProductDiv from "../components/ProductDiv";
 
 const ProductPage = () => {
   return (
     <div className="flex flex-col min-h-screen">
-      <Navbar />
+      <NavbarBlue />
       {/* <main className="flex-grow flex items-center justify-center p-4">
         <h1 className="text-center text-2xl font-bold">
           <strong>Hello World</strong>
@@ -85,7 +85,7 @@ const ProductPage = () => {
           productPrice="₱00.00"
         />
       </div>
-      <Footer />
+      <FooterBlue />
     </div>
   );
 };
