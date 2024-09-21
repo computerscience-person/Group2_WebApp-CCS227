@@ -2,7 +2,15 @@ import w_blue from "../../assets/logos/w_blue.png";
 const NavbarWhite = () => {
   return (
     <nav className="bg-white p-5 h-30 w-full shadow-lg m-0 flex justify-between items-center ">
-      <img src={w_blue} alt="Logo" className="h-10" />
+      <button>
+        <a href="/home">
+          <img
+            src={w_blue}
+            alt="Logo"
+            className="h-10 transition-transform duration-150 ease-in-out hover:scale-110"
+          />
+        </a>
+      </button>
 
       <ul className="flex space-x-8 ml-auto">
         <li>
