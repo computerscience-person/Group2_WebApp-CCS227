@@ -3,7 +3,7 @@ import w_blue from "../../assets/logos/w_blue.png";
 const NavbarBlue = () => {
   return (
     <nav
-      className="p-5 h-30 w-full shadow-xl m-0 flex justify-between items-center"
+      className="sticky top-0 z-50 p-5 h-30 w-full shadow-md m-0 flex justify-between items-center"
       style={{ backgroundColor: "#CFE4F4" }} // Inline custom color
     >
       <button>
