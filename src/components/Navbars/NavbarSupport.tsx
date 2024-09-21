@@ -2,7 +2,7 @@ import w_blue from "../../assets/logos/w_blue.png";
 
 const NavbarSupports = () => {
   return (
-    <nav className="bg-white p-5 h-30 w-full shadow-lg m-0 flex justify-between items-center">
+    <nav className="bg-white sticky top-0 z-50 p-5 h-30 w-full shadow-md m-0 flex justify-between items-center">
       <button>
         <a href="/home">
           <img
