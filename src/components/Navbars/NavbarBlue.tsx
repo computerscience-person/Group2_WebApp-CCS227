@@ -6,7 +6,15 @@ const NavbarBlue = () => {
       className="p-5 h-30 w-full shadow-xl m-0 flex justify-between items-center"
       style={{ backgroundColor: "#CFE4F4" }} // Inline custom color
     >
-      <img src={w_blue} alt="Logo" className="h-10" />
+      <button>
+        <a href="/home">
+          <img
+            src={w_blue}
+            alt="Logo"
+            className="h-10 transition-transform duration-150 ease-in-out hover:scale-110"
+          />
+        </a>
+      </button>
 
       <ul className="flex space-x-8 ml-auto">
         <li>
