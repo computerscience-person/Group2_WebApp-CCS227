@@ -14,20 +14,20 @@ const ProductPage = () => {
     <div className="flex flex-col min-h-screen">
       <NavbarBlue />
       {/* LAYER 1 GRIDDING */}
-      <div className="grid grid-cols-12 grid-rows-5 gap-4 h-[648px] bg-[url('./assets/background.png')] text-[#FFFFFF]">
+      <div className="grid grid-cols-12 grid-rows-5 gap-4 h-[648px] bg-[url('./assets/background.png')] bg-[center_55%] bg-cover text-[#F5F5F5]">
         {/* TAGLINE */}
-        <div className="col-start-2 col-end-8 row-start-2 font-poppins font-bold text-[65px] leading-[108px] ">
+        <div className="col-start-1 col-end-8 row-start-1 font-poppins font-bold text-[65px] leading-[108px] mt-24 ml-20">
           Water intake? Not a problem.
         </div>
         {/* DESCRIPTION */}
-        <div className="col-start-2 col-end-8 row-start-4 font-poppins font-normal text-[27px] ">
+        <div className="col-start-1 col-end-8 row-start-3 font-poppins font-normal text-[27px] mt-16 ml-20">
           Thirsty, but tired of drinking plain water? Don’t worry, Water-up has
           your back.
         </div>
         {/* PRODUCT IMAGE */}
         <img
           src={wu_classic}
-          className=" col-start-8 col-end-12 row-span-5 w-auto h-[85%] transition-transform duration-700 ease-in-out hover:scale-105 mt-7 ml-10"
+          className=" col-start-8 col-end-12 row-span-5 w-auto h-[85%] transition-transform duration-700 ease-in-out hover:scale-105 mt-20 ml-10"
           alt="Water-Up Classic"
         />
       </div>
@@ -47,21 +47,21 @@ const ProductPage = () => {
         <div className=" col-start-2 col-end-4 row-start-4 row-end-7 bg-blue-200 m-8 rounded-[45px]">
           <ProductDiv
             imageSrc={wu_classic}
-            productName="Product Name"
+            productName="CLASSIC"
             productPrice="₱00.00"
           />
         </div>
         <div className=" col-start-4 col-end-6 row-start-4 row-end-7 bg-blue-200 m-8 rounded-[45px]">
           <ProductDiv
             imageSrc={wu_lemon}
-            productName="Product Name"
+            productName="LIVELY LEMON"
             productPrice="₱00.00"
           />
         </div>
         <div className=" col-start-6 col-end-8 row-start-4 row-end-7 bg-blue-200 m-8 rounded-[45px]">
           <ProductDiv
             imageSrc={wu_strawberry}
-            productName="Product Name"
+            productName="SILKY STRAWBERRY"
             productPrice="₱00.00"
           />
         </div>
@@ -69,21 +69,21 @@ const ProductPage = () => {
         <div className=" col-start-2 col-end-4 row-start-7 row-end-10 bg-blue-200 m-8 rounded-[45px]">
           <ProductDiv
             imageSrc={wu_peach}
-            productName="Product Name"
+            productName="PRETTY PEACH"
             productPrice="₱00.00"
           />
         </div>
         <div className=" col-start-4 col-end-6 row-start-7 row-end-10 bg-blue-200 m-8 rounded-[45px]">
           <ProductDiv
             imageSrc={wu_assorted}
-            productName="Product Name"
+            productName="ASSORTED 4-PACK"
             productPrice="₱00.00"
           />
         </div>
         <div className=" col-start-6 col-end-8 row-start-7 row-end-10 bg-blue-200 m-8 rounded-[45px]">
           <ProductDiv
             imageSrc={wu_oneFlavor4Pack}
-            productName="Product Name"
+            productName="ONE FLAVOR 4-PACK"
             productPrice="₱00.00"
           />
         </div>
