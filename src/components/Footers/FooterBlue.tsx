@@ -2,7 +2,7 @@ import wu_blue from "../../assets/logos/wu_blue.png";
 const FooterBlue = () => {
   return (
     <div
-      className="py-5 w-full shadow-lg m-0 flex flex-col items-center justify-center"
+      className="py-5 max-w-[100dvw] shadow-lg m-0 flex flex-col items-center justify-center"
       style={{ backgroundColor: "#CFE4F4" }}
     >
       <img

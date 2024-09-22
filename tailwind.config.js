@@ -10,6 +10,11 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
       },
     },
+    fontFamily: ({ theme }) => ({
+      display: theme('extend.fontFamily.poppins'),
+      body: theme('extend.fontFamily.poppins'),
+      sans: ['Poppins', 'sans-serif'],
+    }),
   },
   plugins: [],
 }
