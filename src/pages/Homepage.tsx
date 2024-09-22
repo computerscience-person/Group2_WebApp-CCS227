@@ -47,7 +47,7 @@ const Homepage = () => {
       <div className="flex flex-col lg:flex-row justify-between items-center w-full h-auto lg:h-[550px] px-8 lg:px-20 mb-12 lg:mb-20">
         <div className="w-full lg:w-[55%] text-center lg:text-left">
           <h1
-            className="font-poppins font-bold text-4xl lg:text-6xl mb-8 lg:mb-16 transition-transform duration-700 ease-in-out hover:scale-105"
+            className="font-poppins font-bold text-4xl lg:text-6xl mb-8 lg:mb-16"
             style={{ color: "#7181A7" }}
           >
             What is Water-Up?
@@ -99,7 +99,7 @@ const Homepage = () => {
       </div>
 
       {/* LAYER 4 - FAQ */}
-      <div className="bg-white w-full h-auto lg:h-[550px] flex flex-col justify-start items-start px-8 lg:px-20 pt-8 lg:pt-12">
+      <div className="bg-white w-full h-auto lg:h-[750px] flex flex-col justify-start items-start px-8 lg:px-20 pt-8 lg:pt-12">
         <h1
           className="font-poppins text-4xl lg:text-6xl font-bold mb-6"
           style={{ color: "#7181A7" }}
@@ -117,6 +117,14 @@ const Homepage = () => {
         <HomepageFAQs
           question="What makes Water-up different from regular flavored water?"
           answer="Water-up is not just flavored; it's packed with essential vitamins to give you a healthy boost with every sip. Plus, we use natural flavors to ensure a refreshing taste without the artificial additives."
+        />
+        <HomepageFAQs
+          question="Is it suitable to consume for all ages?"
+          answer="Water-up is infused with vitamins and minerals from natural sources like fruits, making them a perfect healthy and refreshing drink for all ages. However, it should not be permanently used as a substitute for water. "
+        />
+        <HomepageFAQs
+          question="I got some unacceptable products, what do I do?"
+          answer="You may contact us and  send your concerns by filling up our Support Form. Please make sure to include images or videos of the defective product."
         />
       </div>
       <FooterBlue />
