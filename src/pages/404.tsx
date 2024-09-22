@@ -11,7 +11,7 @@ const NotFound = () => {
             Oops!
           </h1>
           <p className="font-poppins text-left text-3xl mb-5">
-            We can't seem to find the page you are looking for.
+            We can&apos;t seem to find the page you are looking for.
           </p>
           <button
             className="h-10 w-52 text-2xl rounded-2xl transition-transform duration-80 ease-in-out hover:scale-105"
