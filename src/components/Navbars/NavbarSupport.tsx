@@ -1,8 +1,8 @@
 import w_blue from "../../assets/logos/w_blue.png";
 
-const NavbarSupports = () => {
+const NavbarSupport = () => {
   return (
-    <nav className="bg-white sticky top-0 z-50 p-5 h-30 w-full shadow-md m-0 flex justify-between items-center">
+    <nav className="bg-white sticky top-0 z-50 p-5 h-30 max-w-[100dvw] shadow-md m-0 flex justify-between items-center">
       <button>
         <a href="/home">
           <img
@@ -28,4 +28,4 @@ const NavbarSupports = () => {
   );
 };
 
-export default NavbarSupports;
+export default NavbarSupport;
