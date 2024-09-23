@@ -1,3 +1,4 @@
+import Carousel from "../components/Carousel";
 import FooterWhite from "../components/Footers/FooterWhite";
 import NavbarWhite from "../components/Navbars/NavbarWhite";
 
@@ -59,14 +60,8 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
-
-      <div className="w-auto h-[648px] flex justify-between items-center ">
-        {/* LAYER 4 */}
-        <h1
-            className="font-poppins font-bold text-6xl mb-16"
-            style={{ color: "#7181A7" }}>
-            About us pictures hihi
-          </h1>
+      <div className="" style={{ backgroundColor: "#CFE4F4" }}>
+      <Carousel/>
       </div>
       <FooterWhite />
     </div>
