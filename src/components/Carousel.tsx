@@ -10,12 +10,12 @@ import els from "../assets/members/constantino.png";
 import wu_blue from "../assets/logos/wu_blue.png";
 
 const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1
-}
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+};
 
 function Carousel() {
     return (
@@ -35,17 +35,23 @@ function Carousel() {
                             <img src ={d.img} alt="" className="h-80 w-80" />
                         </div>
 
-                        <div className="flex flex-col justify-center items-center gap-4 p-4">
-                            <h2 className="font-poppins font-bold text-2xl " style={{ color: "#7181A7" }}>{d.name}</h2>
-                            <p className="font-poppins " style={{ color: "#7181A7" }}>{d.title}</p>
-                        </div>
-                    </div>
-                ))}
-            </Slider>
+              <div className="flex flex-col justify-center items-center gap-4 p-4">
+                <h2
+                  className="font-poppins font-bold text-2xl "
+                  style={{ color: "#7181A7" }}
+                >
+                  {d.name}
+                </h2>
+                <p className="font-poppins " style={{ color: "#7181A7" }}>
+                  {d.title}
+                </p>
+              </div>
             </div>
-        </div>
-    );
-
+          ))}
+        </Slider>
+      </div>
+    </div>
+  );
 }
 
 const data = [
