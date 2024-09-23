@@ -1,31 +1,37 @@
 import React from "react";
 
 interface ProductDivProps {
-  // placingLeft: number;
-  // placingTop: number;
   imageSrc: string;
   productName: string;
   productPrice: string;
 }
 
 const ProductDiv: React.FC<ProductDivProps> = ({
-  // placingLeft,
-  // placingTop,
   imageSrc,
   productName,
   productPrice,
 }) => {
   return (
-    <div className="transition-transform duration-700 ease-in-out hover:scale-105">
-      <div className="w-[250px] h-[250px]  mx-auto mt-8">
+    <div
+      className="m-8 rounded-3xl transition-transform duration-150 ease-in-out hover:scale-105 hover:shadow-xl"
+      style={{ backgroundColor: "#CFE4F4" }}
+    >
+      <div className="w-56 lg:w-60 lg:h-64 mx-auto mt-8 flex justify-center items-center">
         <img
           src={imageSrc}
           alt="Product"
-          className="w-full h-full object-cover"
+          className="w-auto h-56 object-cover"
         />
       </div>
-      <p className="mt-4 text-lg ml-4 font-bold font-poppins">{productName}</p>
-      <p className="mt-1 text-lg ml-4 font-poppins">{productPrice}</p>
+      <p
+        className="text-lg ml-4 font-bold font-poppins"
+        style={{ color: "#7181A7" }}
+      >
+        {productName}
+      </p>
+      <p className="text-lg ml-4 font-poppins" style={{ color: "#7181A7" }}>
+        {productPrice}
+      </p>
     </div>
   );
 };
