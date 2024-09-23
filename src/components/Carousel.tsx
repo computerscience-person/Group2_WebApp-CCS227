@@ -1,9 +1,13 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import kpop from "../assets/kpop.jpg";
-import sample from "../assets/sample.jpg";
-import els from "../assets/els.jpg";
+import cris from "../assets/members/artacho.png";
+import mans from "../assets/members/carado.png";
+import ollie from "../assets/members/ladores.png";
+import aika from "../assets/members/nava.png";
+import reycel from "../assets/members/sarmiento.png";
+import els from "../assets/members/constantino.png";
+import wu_blue from "../assets/logos/wu_blue.png";
 
 const settings = {
     dots: true,
@@ -16,16 +20,19 @@ const settings = {
 function Carousel() {
     return (
         <div className="w-3/4 m-auto mb-[100px] mt-20">
-            <h1 className="font-poppins font-bold text-6xl"
+            <div className="flex flex-row justify-center gap-10">
+            <h1 className="font-poppins font-bold text-6xl mt-10"
             style={{ color: "#7181A7" }}>
-                People Behind Water-Up
+                Meet the people behind
             </h1>
-            <div className="mt-40">
+            <img src= {wu_blue} alt="" className="h-40 w-50"/> 
+            </div>
+            <div className="mt-20">
             <Slider {...settings}>
                 {data.map((d) => (
                     <div className="h-[400px] rounded-xl">
                         <div className="h-56 rounded-t-xl flex justify-center items-center">
-                            <img src ={d.img} alt="" className="h-44 w-44" />
+                            <img src ={d.img} alt="" className="h-80 w-80" />
                         </div>
 
                         <div className="flex flex-col justify-center items-center gap-4 p-4">
@@ -43,35 +50,36 @@ function Carousel() {
 
 const data = [
     {
-        name: "Jeno Lee",
-        img: kpop,
+        name: "Cristopher Ian Artarcho",
+        img: cris,
         title: "Founder"
     },
     {
-        name: "Jiwoong Kim",
-        img: kpop,
+        name: "John Manuel Carado",
+        img: mans,
         title: "Founder"
     },
     {
-        name: "Hyungwon Chae",
-        img: kpop,
+        name: "Angelika Marie Nava",
+        img: aika,
         title: "Founder"
     },
     {
-        name: "Changbin Seo",
-        img: kpop,
+        name: "Reycel Sarmiento",
+        img: reycel,
         title: "Founder"
     },
     {
-        name: "Justin De Dios",
-        img: kpop,
+        name: "Els Dave Constantino",
+        img: els,
         title: "Founder"
     },
     {
-        name: "Ken Suson",
-        img: kpop,
+        name: "Oliver Ladores",
+        img: ollie,
         title: "Founder"
     }
+
 
 ]
 
