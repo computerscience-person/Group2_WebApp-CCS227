@@ -7,34 +7,36 @@ const AboutUs = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <NavbarWhite />
-      <div className="w-auto h-[648px] flex justify-between items-center">
-        {/* LAYER 1 */}
-        <div className="flex flex-col items-center text-center mx-[80px] gap-2">
-          <img src={w_blue} alt="" className="h-14 w-14" />
-          <h1
-            className="font-poppins font-bold text-6xl mb-16 justify-center mx-[80px]"
-            style={{ color: "#7181A7" }}
-          >
-            About Us
-          </h1>
-          <p
-            className="text-start font-poppins text-xl mx-[80px]"
-            style={{ color: "#7181A7" }}
-          >
-            At Water-up, we’re revolutionizing the way you hydrate! Our
-            vitamin-infused water is designed to give you a healthy boost in
-            every sip, making it easier and more enjoyable to stay refreshed
-            throughout the day. With four invigorating flavors—classic,
-            strawberry, peach, and lemon—there’s something for every taste, and
-            we’re constantly innovating to bring you more. <br></br>
-            <br></br>
-            <br></br>
-            We believe hydration should be both healthy and delicious, which is
-            why we only use natural flavors and essential vitamins to elevate
-            your water experience. Whether you’re at the gym, on the go, or just
-            need a flavorful pick-me-up, Water-up is your perfect hydration
-            partner. Elevate your water, elevate your life!
-          </p>
+      <div className="flex place-content-center">
+        <div className="w-textcontent h-[648px] flex place-content-center justify-between items-center">
+          {/* LAYER 1 */}
+          <div className="flex flex-col items-center text-center gap-2">
+            <img src={w_blue} alt="" className="h-14 w-14" />
+            <h1
+              className="font-poppins font-bold text-6xl mb-16 justify-center mx-[80px]"
+              style={{ color: "#7181A7" }}
+            >
+              About Us
+            </h1>
+            <p
+              className="text-start font-poppins text-xl mx-[80px]"
+              style={{ color: "#7181A7" }}
+            >
+              At Water-up, we’re revolutionizing the way you hydrate! Our
+              vitamin-infused water is designed to give you a healthy boost in
+              every sip, making it easier and more enjoyable to stay refreshed
+              throughout the day. With four invigorating flavors—classic,
+              strawberry, peach, and lemon—there’s something for every taste,
+              and we’re constantly innovating to bring you more. <br></br>
+              <br></br>
+              <br></br>
+              We believe hydration should be both healthy and delicious, which
+              is why we only use natural flavors and essential vitamins to
+              elevate your water experience. Whether you’re at the gym, on the
+              go, or just need a flavorful pick-me-up, Water-up is your perfect
+              hydration partner. Elevate your water, elevate your life!
+            </p>
+          </div>
         </div>
       </div>
 

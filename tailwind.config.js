@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },
+      spacing: {
+        textcontent: '850px',
+      },
     },
     fontFamily: ({ theme }) => ({
       display: theme('extend.fontFamily.poppins'),

@@ -99,33 +99,35 @@ const Homepage = () => {
       </div>
 
       {/* LAYER 4 - FAQ */}
-      <div className="bg-white w-full h-auto lg:h-[750px] flex flex-col justify-start items-start px-8 lg:px-20 pt-8 lg:pt-12">
-        <h1
-          className="font-poppins text-4xl lg:text-6xl font-bold mb-6"
-          style={{ color: "#7181A7" }}
-        >
-          Frequently Asked Questions
-        </h1>
-        <HomepageFAQs
-          question="How and where can I order?"
-          answer="You may order Water-up products through our official accounts on e-commerce platforms, such as Shopee and Lazada.  "
-        />
-        <HomepageFAQs
-          question="What flavors are available? "
-          answer="Currently, there are a total of 4 refreshing flavors available: classic, strawberry, peach, and lemon.  More flavors are coming soon. "
-        />
-        <HomepageFAQs
-          question="What makes Water-up different from regular flavored water?"
-          answer="Water-up is not just flavored; it's packed with essential vitamins to give you a healthy boost with every sip. Plus, we use natural flavors to ensure a refreshing taste without the artificial additives."
-        />
-        <HomepageFAQs
-          question="Is it suitable to consume for all ages?"
-          answer="Water-up is infused with vitamins and minerals from natural sources like fruits, making them a perfect healthy and refreshing drink for all ages. However, it should not be permanently used as a substitute for water. "
-        />
-        <HomepageFAQs
-          question="I got some unacceptable products, what do I do?"
-          answer="You may contact us and  send your concerns by filling up our Support Form. Please make sure to include images or videos of the defective product."
-        />
+      <div className="bg-white max-w-full h-fit flex flex-col justify-center items-center px-8 lg:px-20 pt-8 lg:pt-12">
+        <div className="w-textcontent">
+          <h1
+            className="font-poppins text-4xl lg:text-6xl font-bold mb-6"
+            style={{ color: "#7181A7" }}
+          >
+            Frequently Asked Questions
+          </h1>
+          <HomepageFAQs
+            question="How and where can I order?"
+            answer="You may order Water-up products through our official accounts on e-commerce platforms, such as Shopee and Lazada.  "
+          />
+          <HomepageFAQs
+            question="What flavors are available? "
+            answer="Currently, there are a total of 4 refreshing flavors available: classic, strawberry, peach, and lemon.  More flavors are coming soon. "
+          />
+          <HomepageFAQs
+            question="What makes Water-up different from regular flavored water?"
+            answer="Water-up is not just flavored; it's packed with essential vitamins to give you a healthy boost with every sip. Plus, we use natural flavors to ensure a refreshing taste without the artificial additives."
+          />
+          <HomepageFAQs
+            question="Is it suitable to consume for all ages?"
+            answer="Water-up is infused with vitamins and minerals from natural sources like fruits, making them a perfect healthy and refreshing drink for all ages. However, it should not be permanently used as a substitute for water. "
+          />
+          <HomepageFAQs
+            question="I got some unacceptable products, what do I do?"
+            answer="You may contact us and  send your concerns by filling up our Support Form. Please make sure to include images or videos of the defective product."
+          />
+        </div>
       </div>
       <FooterBlue />
     </div>
