@@ -3,7 +3,7 @@ const NavbarWhite = () => {
   return (
     <nav className="bg-white sticky top-0 z-50 p-5 h-30 w-full shadow-md m-0 flex justify-between items-center ">
       <button>
-        <a href="home">
+        <a href="#home">
           <img
             src={w_blue}
             alt="Logo"
@@ -15,7 +15,7 @@ const NavbarWhite = () => {
       <ul className="flex space-x-8 ml-auto">
         <li>
           <a
-            href="home"
+            href="#home"
             className="font-poppins block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
             style={{ color: "#7181A7" }}
           >
@@ -24,7 +24,7 @@ const NavbarWhite = () => {
         </li>
         <li>
           <a
-            href="product"
+            href="#product"
             className="font-poppins block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
             style={{ color: "#7181A7" }}
           >
@@ -33,7 +33,7 @@ const NavbarWhite = () => {
         </li>
         <li>
           <a
-            href="about"
+            href="#about"
             className="font-poppins block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
             style={{ color: "#7181A7" }}
           >
@@ -42,7 +42,7 @@ const NavbarWhite = () => {
         </li>
         <li>
           <a
-            href="support"
+            href="#support"
             className="font-poppins block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
             style={{ color: "#7181A7" }}
           >

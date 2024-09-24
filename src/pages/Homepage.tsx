@@ -30,7 +30,7 @@ const Homepage = () => {
             className="h-10 w-32 lg:w-40 text-lg lg:text-2xl rounded-2xl transition-transform duration-80 ease-in-out hover:scale-105"
             style={{ backgroundColor: "#7181A7" }}
           >
-            <a className="font-poppins font-bold text-white" href="about">
+            <a className="font-poppins font-bold text-white" href="#about">
               Learn More
             </a>
           </button>

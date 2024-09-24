@@ -7,7 +7,7 @@ const NavbarBlue = () => {
       style={{ backgroundColor: "#CFE4F4" }} // Inline custom color
     >
       <button>
-        <a href="home">
+        <a href="#home">
           <img
             src={w_blue}
             alt="Logo"
@@ -19,7 +19,7 @@ const NavbarBlue = () => {
       <ul className="flex space-x-8 ml-auto">
         <li>
           <a
-            href="home"
+            href="#home"
             className="font-poppins block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
             style={{ color: "#7181A7" }}
           >
@@ -28,7 +28,7 @@ const NavbarBlue = () => {
         </li>
         <li>
           <a
-            href="product"
+            href="#product"
             className="font-poppins block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
             style={{ color: "#7181A7" }}
           >
@@ -37,7 +37,7 @@ const NavbarBlue = () => {
         </li>
         <li>
           <a
-            href="about"
+            href="#about"
             className="font-poppins block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
             style={{ color: "#7181A7" }}
           >
@@ -46,7 +46,7 @@ const NavbarBlue = () => {
         </li>
         <li>
           <a
-            href="support"
+            href="#support"
             className="font-poppins block px-4 py-2 transition-transform duration-80 ease-in-out hover:scale-105"
             style={{ color: "#7181A7" }}
           >

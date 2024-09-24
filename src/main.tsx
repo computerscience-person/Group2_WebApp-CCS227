@@ -15,23 +15,23 @@ const routes = createHashRouter([
     errorElement: <NotFound />,
   },
   {
-    path: "/home",
+    path: "home",
     element: <Homepage />,
   },
   {
-    path: "/about",
+    path: "about",
     element: <AboutUs />,
   },
   {
-    path: "/product",
+    path: "product",
     element: <ProductPage />,
   },
   {
-    path: "/support",
+    path: "support",
     element: <Support />,
   },
 ], {
-  basename: "/Group2_WebApp-CCS227"
+  // basename: "/Group2_WebApp-CCS227"
 });
 
 createRoot(document.getElementById("root")!).render(
