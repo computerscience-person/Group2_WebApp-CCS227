@@ -19,20 +19,20 @@ const settings = {
 
 function Carousel() {
   return (
-    <div className="w-3/4 m-auto mb-[100px] mt-20">
-      <div className="flex flex-row justify-center gap-10">
+    <div className="w-3/4 m-auto mb-32 mt-20">
+      <div className=" flex flex-row items-center justify-center gap-10">
         <h1
-          className="font-poppins font-bold text-6xl mt-10"
+          className="font-poppins font-bold text-4xl lg:text-6xl"
           style={{ color: "#7181A7" }}
         >
           Meet the people behind
         </h1>
-        <img src={wu_blue} alt="" className="h-40 w-50" />
+        <img src={wu_blue} alt="" className="h-28 lg:h-36 w-auto" />
       </div>
       <div className="mt-20">
         <Slider {...settings}>
           {data.map((d) => (
-            <div className="h-[400px] rounded-xl" key={d.name}>
+            <div className="h-80 rounded-xl" key={d.name}>
               <div className="h-56 rounded-t-xl flex justify-center items-center">
                 <img src={d.img} alt="" className="h-80 w-80" />
               </div>
@@ -58,34 +58,34 @@ function Carousel() {
 
 const data = [
   {
-    name: "Cristopher Ian Artarcho",
-    img: cris,
-    title: "Founder",
+    name: "Oliver Ladores",
+    img: ollie,
+    title: "Lead Developer",
   },
   {
     name: "John Manuel Carado",
     img: mans,
-    title: "Founder",
+    title: "Project Manager",
   },
   {
     name: "Angelika Marie Nava",
     img: aika,
-    title: "Founder",
+    title: "UI/UX Designer",
   },
   {
     name: "Reycel Sarmiento",
     img: reycel,
-    title: "Founder",
+    title: "UI/UX Designer",
   },
   {
     name: "Els Dave Constantino",
     img: els,
-    title: "Founder",
+    title: "Front-end Developer",
   },
   {
-    name: "Oliver Ladores",
-    img: ollie,
-    title: "Founder",
+    name: "Cristopher Ian Artacho",
+    img: cris,
+    title: "Front-end Developer",
   },
 ];
 
