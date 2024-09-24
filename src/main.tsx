@@ -1,14 +1,14 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Homepage from "./pages/Homepage.tsx";
 import AboutUs from "./pages/AboutUs.tsx";
 import NotFound from "./pages/404.tsx";
 import ProductPage from "./pages/ProductPage.tsx";
 import Support from "./pages/Support.tsx";
 
-const routes = createBrowserRouter([
+const routes = createHashRouter([
   {
     path: "/",
     element: <Homepage />,
@@ -30,27 +30,6 @@ const routes = createBrowserRouter([
     path: "/support",
     element: <Support />,
   },
-  // {
-  //   path: "/Group2_WebApp-CCS227/",
-  //   element: <Homepage />,
-  //   errorElement: <NotFound />,
-  // },
-  // {
-  //   path: "/Group2_WebApp-CCS227/home",
-  //   element: <Homepage />,
-  // },
-  // {
-  //   path: "/Group2_WebApp-CCS227/about",
-  //   element: <AboutUs />,
-  // },
-  // {
-  //   path: "/Group2_WebApp-CCS227/product",
-  //   element: <ProductPage />,
-  // },
-  // {
-  //   path: "/Group2_WebApp-CCS227/support",
-  //   element: <Support />,
-  // },
 ], {
   basename: "/Group2_WebApp-CCS227"
 });

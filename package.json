@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://computerscience-person.github.io/Group2_WebApp-CCS227",
   "engines": {
     "node": ">=20.0"
   },
