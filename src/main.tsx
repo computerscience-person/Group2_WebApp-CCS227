@@ -30,7 +30,30 @@ const routes = createBrowserRouter([
     path: "/support",
     element: <Support />,
   },
-]);
+  // {
+  //   path: "/Group2_WebApp-CCS227/",
+  //   element: <Homepage />,
+  //   errorElement: <NotFound />,
+  // },
+  // {
+  //   path: "/Group2_WebApp-CCS227/home",
+  //   element: <Homepage />,
+  // },
+  // {
+  //   path: "/Group2_WebApp-CCS227/about",
+  //   element: <AboutUs />,
+  // },
+  // {
+  //   path: "/Group2_WebApp-CCS227/product",
+  //   element: <ProductPage />,
+  // },
+  // {
+  //   path: "/Group2_WebApp-CCS227/support",
+  //   element: <Support />,
+  // },
+], {
+  basename: "/Group2_WebApp-CCS227"
+});
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
