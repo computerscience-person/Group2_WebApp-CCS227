@@ -10,23 +10,23 @@ import wu_assorted from "../assets/products/waterup_intro.png";
 import wu_oneFlavor4Pack from "../assets/products/waterup_four.png";
 
 const products = [
-  { imageSrc: wu_classic, productName: "CLASSIC", productPrice: "₱00.00" },
-  { imageSrc: wu_lemon, productName: "LIVELY LEMON", productPrice: "₱00.00" },
+  { imageSrc: wu_classic, productName: "CLASSIC", productPrice: "₱80.00" },
+  { imageSrc: wu_lemon, productName: "LIVELY LEMON", productPrice: "₱125.00" },
   {
     imageSrc: wu_strawberry,
     productName: "SILKY STRAWBERRY",
-    productPrice: "₱00.00",
+    productPrice: "₱125.00",
   },
-  { imageSrc: wu_peach, productName: "PRETTY PEACH", productPrice: "₱00.00" },
+  { imageSrc: wu_peach, productName: "PRETTY PEACH", productPrice: "₱125.00" },
   {
     imageSrc: wu_assorted,
     productName: "ASSORTED 4-PACK",
-    productPrice: "₱00.00",
+    productPrice: "₱150.00",
   },
   {
     imageSrc: wu_oneFlavor4Pack,
     productName: "ONE FLAVOR 4-PACK",
-    productPrice: "₱00.00",
+    productPrice: "₱150.00",
   },
 ];
 
