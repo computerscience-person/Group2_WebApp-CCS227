@@ -35,15 +35,15 @@ const ProductPage = () => {
     <div className="flex flex-col min-h-screen">
       <NavbarBlue />
       {/* LAYER 1 GRIDDING */}
-      <div className="grid grid-cols-12 grid-rows-5 gap-4 h-[648px] bg-[url('./assets/background.png')] bg-[center_55%] bg-cover text-[#F5F5F5]">
+      <div className="grid grid-cols-13 grid-rows-13 gap-4 h-[648px] bg-[url('./assets/background.png')] bg-[center_55%] bg-cover text-[#F5F5F5]">
         {/* TAGLINE */}
         <div className="col-start-1 col-end-8 row-start-1 leading-[108px]">
-          <h1 className="font-poppins font-bold text-4xl lg:text-6xl leading-[108px] mt-40 ml-20">
-            Water intake? Not a problem
+          <h1 className="font-poppins font-bold text-6xl lg:text-8xl leading-[108px] mt-40 ml-20">
+            Water intake?<br></br> Not a problem
           </h1>
         </div>
         {/* DESCRIPTION */}
-        <div className="col-start-1 col-end-8 row-start-3 ml-20 mt-16">
+        <div className="col-start-1 col-end-7 row-start-2 ml-20">
           <p className="font-poppins text-lg lg:text-xl font-normal ">
             Thirsty, but tired of drinking plain water? Don’t worry, Water-up
             has your back.
