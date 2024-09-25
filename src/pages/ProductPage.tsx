@@ -35,7 +35,7 @@ const ProductPage = () => {
     <div className="flex flex-col min-h-screen">
       <NavbarBlue />
       {/* LAYER 1 GRIDDING */}
-      <div className="grid grid-cols-13 grid-rows-13 gap-4 h-[648px] bg-[url('./assets/background.png')] bg-[center_55%] bg-cover text-[#F5F5F5]">
+      <div className="grid grid-cols-13 grid-rows-13 gap-4 h-[648px] bg-[url('./assets/background.png')] bg-[center_55%] bg-[length:auto_auto] text-[#F5F5F5]">
         {/* TAGLINE */}
         <div className="col-start-1 col-end-8 row-start-1 leading-[108px]">
           <h1 className="font-poppins font-bold text-6xl lg:text-8xl leading-[108px] mt-40 ml-20">
@@ -52,7 +52,7 @@ const ProductPage = () => {
         {/* PRODUCT IMAGE */}
         <img
           src={wu_classic}
-          className="col-start-8 col-end-12 row-span-5 w-full lg:w-auto h-[300px] lg:h-[500px] mt-32 ml-10 transition-transform duration-700 ease-in-out hover:scale-105"
+          className="col-start-8 col-end-12 row-span-5 max-w-[350px] h-[300px] lg:h-[500px] mt-32 ml-10 transition-transform duration-700 ease-in-out hover:scale-105"
           alt="Water-Up Classic"
         />
       </div>
