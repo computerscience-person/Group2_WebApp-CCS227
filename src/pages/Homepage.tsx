@@ -7,6 +7,7 @@ import droplet from "../assets/icons/droplet.png";
 import ml from "../assets/icons/ml.png";
 import plant from "../assets/icons/plant.png";
 import HomepageFAQs from "../components/HomepageFAQs";
+import wu_blue from "../assets/logos/wu_blue.png";
 
 const Homepage = () => {
   return (
@@ -19,15 +20,16 @@ const Homepage = () => {
         style={{ backgroundColor: "#CFE4F4" }}
       >
         {/* Text Description */}
-        <div className="w-full lg:w-[60%] text-center lg:text-left font-poppins">
+      <div className="w-full lg:w-[60%] text-center lg:text-left font-poppins ml-[px]">
+          <img src={wu_blue} alt="" className="h-64 lg:h-64 w-auto" />
           <h1
-            className="font-bold text-4xl lg:text-6xl pb-4 lg:pb-5"
+            className="font-bold text-4xl lg:text-3xl pb-4 lg:pb-5 ml-[65px]"
             style={{ color: "#7181A7" }}
           >
-            WATER-UP: <br /> Water made better.
+            <br /> Water made better
           </h1>
           <button
-            className="h-10 w-32 lg:w-40 text-lg lg:text-2xl rounded-2xl transition-transform duration-80 ease-in-out hover:scale-105"
+            className="h-10 w-32 lg:w-40 text-lg lg:text-2xl rounded-2xl transition-transform duration-80 ease-in-out hover:scale-105 ml-[130px]"
             style={{ backgroundColor: "#7181A7" }}
           >
             <a className="font-poppins font-bold text-white" href="#about">
@@ -50,7 +52,7 @@ const Homepage = () => {
             className="font-poppins font-bold text-4xl lg:text-6xl mb-8 lg:mb-16"
             style={{ color: "#7181A7" }}
           >
-            What is Water-Up?
+            What is Water Up?
           </h1>
           <p
             className="font-poppins text-lg lg:text-xl"
@@ -99,7 +101,7 @@ const Homepage = () => {
       </div>
 
       {/* LAYER 4 - FAQ */}
-      <div className="bg-white max-w-full h-fit flex flex-col justify-center items-center px-8 lg:px-20 pt-8 lg:pt-12">
+      <div className="bg-white max-w-full h-fit flex flex-col justify-center items-center px-8 lg:px-20 pt-8 lg:pt-12 mb-10">
         <div className="w-textcontent">
           <h1
             className="font-poppins text-4xl lg:text-6xl font-bold mb-6"
