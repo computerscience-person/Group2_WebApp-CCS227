@@ -99,8 +99,8 @@ const Homepage = () => {
       </div>
 
       {/* LAYER 4 - FAQ */}
-      <div className="bg-white max-w-full h-fit flex flex-col justify-center items-center px-8 lg:px-20 pt-8 lg:pt-12">
-        <div className="w-textcontent">
+      <div className="bg-white max-w-full h-fit flex flex-col px-8 lg:px-20 pt-8 lg:pt-12 pb-8">
+        <div className="lg:w-10/12">
           <h1
             className="font-poppins text-4xl lg:text-6xl font-bold mb-6"
             style={{ color: "#7181A7" }}
