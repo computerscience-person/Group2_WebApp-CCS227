@@ -10,7 +10,7 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
       },
       spacing: {
-        textcontent: '850px',
+        textcontent: '1050px',
       },
     },
     fontFamily: ({ theme }) => ({

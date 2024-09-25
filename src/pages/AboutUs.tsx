@@ -19,7 +19,7 @@ const AboutUs = () => {
               About Us
             </h1>
             <p
-              className="text-start font-poppins text-xl mx-[80px]"
+              className="text-start font-poppins text-xl"
               style={{ color: "#7181A7" }}
             >
               At Water-up, we’re revolutionizing the way you hydrate! Our
